@@ -11,7 +11,7 @@ $(document).ready(function() {
 	});
 
 setInterval (function() { $("#d").css("left", dirL); $("#d").css("top", dirR); moveDir(); } , 50)
-const words = ["I'm  Dreamer.", "I'm  Doer" , "I'm a Developer"];
+const words = ["I'm  Developer.", "I'm  Doer" , "I'm a Developer"];
 let i = 0;
 let timer;
 
